@@ -70,7 +70,7 @@ def padding_sentence(s1, s2):
     for i, s in enumerate(s2):
         s2_padding[i][:len(s)] = s
 
-    print "9840个句子填充完毕"
+    print ("9840个句子填充完毕")
     return s1_padding, s2_padding
 
 def get_id(word):
